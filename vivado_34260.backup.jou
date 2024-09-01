@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Aug 26 17:42:56 2024
+# Process ID: 34260
+# Current directory: C:/Users/susmi/OneDrive/Desktop/Project/Digital Project/processor_32bitfinal
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4004 C:\Users\susmi\OneDrive\Desktop\Project\Digital Project\processor_32bitfinal\processor_32bitfinal.xpr
+# Log file: C:/Users/susmi/OneDrive/Desktop/Project/Digital Project/processor_32bitfinal/vivado.log
+# Journal file: C:/Users/susmi/OneDrive/Desktop/Project/Digital Project/processor_32bitfinal\vivado.jou
+# Running On: Susmita, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/susmi/OneDrive/Desktop/Project/Digital Project/processor_32bitfinal/processor_32bitfinal.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/susmi/OneDrive/Desktop/Project/Digital Project/processor_32bitfinal/testbench_behav.wcfg}
+source testbench.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config {C:/Users/susmi/OneDrive/Desktop/Project/Digital Project/processor_32bitfinal/testbench_behav.wcfg}
+source testbench.tcl
+close_sim

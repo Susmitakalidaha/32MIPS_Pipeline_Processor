@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Aug 26 16:24:50 2024
+# Process ID: 21176
+# Current directory: C:/Local Disk drive/INTERNSHIP/SUSMITA/Projects/xlinx/processor_32bitfinal
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39392 C:\Local Disk drive\INTERNSHIP\SUSMITA\Projects\xlinx\processor_32bitfinal\processor_32bitfinal.xpr
+# Log file: C:/Local Disk drive/INTERNSHIP/SUSMITA/Projects/xlinx/processor_32bitfinal/vivado.log
+# Journal file: C:/Local Disk drive/INTERNSHIP/SUSMITA/Projects/xlinx/processor_32bitfinal\vivado.jou
+# Running On: Susmita, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Local Disk drive/INTERNSHIP/SUSMITA/Projects/xlinx/processor_32bitfinal/processor_32bitfinal.xpr}
+update_compile_order -fileset sources_1
+
+update_compile_order -fileset sources_1
